@@ -10,6 +10,8 @@
 #*****************************#
 #Happy New Year 2021
 #Thanks To NamakuHendra In Github For unpack bootimage binary
+#Vdat And sdat are from github, credit to creator 
+#Written In Indonesian language
 W='\033[1;37m'
 Y='\033[1;33m'
 R='\033[1;31m'
