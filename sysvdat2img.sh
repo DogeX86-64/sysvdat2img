@@ -118,7 +118,7 @@ vconv(){
 	fi
 	echo $W [+] Mencari vdat.......
 	sleep 1
-	if [ -f $cwd/vdat.py ]
+	if [ -f $cwd/bin/vdat.py ]
 	then
 		echo $G [✓] Vdat Ditemukan
 		sleep 1
@@ -126,7 +126,7 @@ vconv(){
 		sleep 1.9
 		echo $W [+] Mencari vendor.new.dat......
 		sleep 1
-		if [ -f $cwd/vdat.py ]
+		if [ -f $cwd/vendor.new.dat ]
 		then
 			echo $G [✓] vendor.new.dat ditemukan
 			sleep 1.9
@@ -219,7 +219,7 @@ sconv(){
 	py=`ls | grep 'sdat.py'`
 	echo $Y [+] Mencari Sdatimg.....
 	sleep 1
-	if [ -f $cwd/sdat.py ]
+	if [ -f $cwd/bin/sdat.py ]
 	then
 		echo $G [✓] Sdatimg ditemukan
 		sleep 0.5
